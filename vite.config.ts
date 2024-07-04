@@ -14,6 +14,7 @@ export default defineConfig({
     monkeyPlugin({
       entry:"./src/index.tsx",
       userscript:{
+        name:'Resize Page',
         match:"https://www.wnacg.com/*",
         description:"This is a Web Manga Site Resize Plugin"
       }

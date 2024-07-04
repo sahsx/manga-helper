@@ -1,11 +1,12 @@
 // ==UserScript==
-// @name       manga-helper
-// @namespace  vite-plugin-monkey
-// @version    0.1
-// @author     monkey
-// @license    MIT
-// @match      https://www.wnacg.com/*
-// @grant      GM_addStyle
+// @name         manga-helper
+// @namespace    vite-plugin-monkey
+// @version      0.1
+// @author       monkey
+// @description  This is a Web Manga Site Resize Plugin
+// @license      MIT
+// @match        https://www.wnacg.com/*
+// @grant        GM_addStyle
 // ==/UserScript==
 
 (o=>{if(typeof GM_addStyle=="function"){GM_addStyle(o);return}const e=document.createElement("style");e.textContent=o,document.head.append(e)})(" body{margin:0;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}code{font-family:source-code-pro,Menlo,Monaco,Consolas,Courier New,monospace}._Zoom_1k34e_1{position:fixed;top:50%;right:50px;transform:translateY(-50%)}._Pointer_1k34e_15{width:20px;height:20px;border-radius:50%;background-color:#6495ed}._Slider_1qw2a_1{width:50px}._Popover_ra5z7_1:hover{cursor:pointer}._label_ra5z7_7{position:relative}._content_ra5z7_13{visibility:hidden;position:absolute;top:-100%}._Popover_ra5z7_1:hover ._content_ra5z7_13{visibility:visible}._App_1c3hv_1{text-align:center} ");

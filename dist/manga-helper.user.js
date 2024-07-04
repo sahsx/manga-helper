@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         manga-helper
+// @name         Resize Page
 // @namespace    vite-plugin-monkey
 // @version      0.1
 // @author       monkey
